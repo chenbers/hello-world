@@ -7,6 +7,7 @@ int main(void)
    printf("y=%d\n",y);
    printf ("Hello from your first program!\n");
    system("echo `date` >> /tmp/mylog");
+   system("echo hello >> /tmp/mylog");
    printf ("Test for Jenkins\n" );
    return 0;
 }
